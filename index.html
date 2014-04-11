@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>User Profile</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div class="form">
+	<fieldset class="form-section">
+		<form>
+		<legend>User Profile Form</legend>
+			<label for="name">Name:</label> 
+				<input type="text" class="userName">
+
+			<label for="biography">Biography:</label> 
+				<input type="text" class="bio">
+
+			<label for="fav-books">Favorite Books:</label>
+				<input type="text" class="fav-books">
+
+			<label for="fav-js-lib">Favorite JS Libraries:</label> 
+				<input type="text" class="fav-libs">
+	</fieldset>
+	<fieldset class="show-btn">
+		<input type="submit" name="submit" value="Hide Form">
+	</fieldset>
+</div>
+
+	</div>
+
+	<div class="top-section">
+		<div id="user-img">
+			<img src="http://placehold.it/150x150">
+		</div>
+
+		<div class="user-info">
+			<h2 class="userName">User Name</h2>
+		</div>
+	</div>
+
+	<div class="body">
+		<div class="bio-section">
+			<p class="bio"></p>
+		</div>
+
+		<div class="favorites-list">
+			<div class="fav-books">
+				Text about favorite books
+			</div>
+			<div class="fav-libs">
+				Text about favorite JS libraries
+			</div>
+		</div>
+	</div>
+
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
